@@ -15,6 +15,10 @@ const HeroComponent = () => {
           Register Now
         </button>
       </div>
+      <img
+        className="monuments-image flex-item"
+        src="/images/monuments.png"
+      ></img>
     </div>
   );
 };

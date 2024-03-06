@@ -4,7 +4,9 @@
   background-image: url("../../assets/images/background.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 80vw;
+  position: relative;
+  height: 90vh;
 }
 
 .hero-button-container {
@@ -33,4 +35,12 @@
 
 .register-now-button {
   font-weight: 900;
+  border-radius: 0px 45px 45px 0px;
+}
+
+.monuments-image {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  z-index: -10;
 }

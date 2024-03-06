@@ -6,6 +6,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import "./navbar.css";
 
 function NavList() {
   return (
@@ -81,7 +82,7 @@ export function NavbarMain() {
   }, []);
 
   return (
-    <Navbar className="sticky mx-auto max-w-screen-xl px-6 py-4 my-2 backdrop-blur shadow-none z-30">
+    <Navbar className="sticky mx-auto max-w-screen-xl px-6 py-4 backdrop-blur shadow-none z-30">
       <div className="flex items-center justify-between text-blue-gray-900 font-body">
         {/* <Typography
           as="a"

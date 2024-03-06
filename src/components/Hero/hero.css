@@ -39,6 +39,12 @@
   border-radius: 0px 45px 45px 0px;
 }
 
+.hero-button:hover {
+  background: grey;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
 .hero-monuments-image {
   position: absolute;
   bottom: 0px;

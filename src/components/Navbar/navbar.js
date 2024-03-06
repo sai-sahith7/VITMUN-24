@@ -15,7 +15,7 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium"
+        className="p-1 font-medium nav-link-item"
       >
         <a
           href="/"
@@ -28,7 +28,7 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium"
+        className="p-1 font-medium nav-link-item"
       >
         <a
           href="/"
@@ -41,7 +41,7 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium"
+        className="p-1 font-medium nav-link-item"
       >
         <a
           href="/"

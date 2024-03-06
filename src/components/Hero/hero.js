@@ -16,9 +16,17 @@ const HeroComponent = () => {
         </button>
       </div>
       <img
-        className="monuments-image flex-item"
+        className="hero-monuments-image flex-item"
         src="/images/monuments.png"
       ></img>
+      <img
+        className="hero-flower-image left-flower flex-item"
+        src="/images/flower.png"
+      />
+      <img
+        className="hero-flower-image right-flower flex-item"
+        src="/images/flower.png"
+      />
     </div>
   );
 };

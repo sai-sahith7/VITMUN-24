@@ -38,7 +38,14 @@
   border-radius: 0px 45px 45px 0px;
 }
 
-.monuments-image {
+.hero-monuments-image {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  z-index: -10;
+}
+
+.hero-flower-image {
   position: absolute;
   bottom: 0px;
   width: 100vw;

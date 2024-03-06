@@ -10,7 +10,7 @@ import "./navbar.css";
 
 function NavList() {
   return (
-    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="nav-links my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
@@ -82,8 +82,8 @@ export function NavbarMain() {
   }, []);
 
   return (
-    <Navbar className="sticky mx-auto max-w-screen-xl px-6 py-4 backdrop-blur shadow-none z-30">
-      <div className="flex items-center justify-between text-blue-gray-900 font-body">
+    <Navbar className="sticky mx-auto px-6 py-4 backdrop-blur shadow-none z-30">
+      <div className="nav-content flex items-center justify-between text-blue-gray-900 font-body">
         {/* <Typography
           as="a"
           href="#"

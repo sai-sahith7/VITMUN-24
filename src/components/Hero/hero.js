@@ -18,14 +18,17 @@ const HeroComponent = () => {
       <img
         className="hero-monuments-image flex-item"
         src="/images/monuments.png"
+        alt="Monuments"
       ></img>
       <img
         className="hero-flower-image left-flower flex-item"
         src="/images/flower.png"
+        alt="Flower"
       />
       <img
         className="hero-flower-image right-flower flex-item"
         src="/images/flower.png"
+        alt="Flower"
       />
     </div>
   );

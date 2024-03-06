@@ -1,0 +1,36 @@
+.hero-container {
+  width: 100vw;
+  height: -webkit-fill-available;
+  background-image: url("../../assets/images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-button-container {
+  margin: 40px 0;
+  gap: 10px;
+  align-self: center;
+  width: 500px;
+  height: 54px;
+  flex-wrap: nowrap;
+  filter: drop-shadow(0px 4px 95px rgba(0, 0, 0, 0.25));
+}
+
+.hero-button {
+  width: -webkit-fill-available;
+  padding: 18px 20px;
+  border-radius: 45px 0px 0px 45px;
+  background: #fdfdfd;
+  color: #000;
+  text-align: center;
+  font-family: Airbnb;
+  font-size: 14.751px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.register-now-button {
+  font-weight: 900;
+}

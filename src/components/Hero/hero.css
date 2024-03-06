@@ -8,6 +8,7 @@
   position: relative;
   height: 90vh;
   overflow: hidden;
+  flex-wrap: nowrap;
 }
 
 .hero-button-container {
@@ -87,4 +88,16 @@
   bottom: -200px;
   right: -200px;
   animation: rotate-left 10s linear infinite;
+}
+
+@media screen and (max-height: 870px) {
+  .hero-image {
+    height: 300px;
+  }
+}
+
+@media screen and (max-height: 540px) {
+  .hero-image {
+    height: 230px;
+  }
 }

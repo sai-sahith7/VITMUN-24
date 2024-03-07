@@ -1,0 +1,176 @@
+.internal-registration-header {
+  margin: 40px 0px 80px 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.internal-reg-main-header {
+  color: #000;
+  text-align: center;
+  font-family: Airbnb;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.internal-reg-sub-header {
+  color: #000;
+  text-align: center;
+  font-family: Airbnb;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.17px;
+}
+
+.internal-registration-form-card {
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 0px 43px 0px rgba(31, 117, 188, 0.45);
+  width: 75vw;
+  padding: 80px 120px;
+  margin-bottom: 100px;
+}
+
+.basic-info-section {
+  width: -webkit-fill-available;
+  gap: 40px;
+}
+
+.two-input-fields {
+  gap: 20px;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+}
+
+.input-field-container {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.input-label {
+  color: #000;
+  text-align: center;
+  font-family: Airbnb;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.17px;
+}
+
+.input-field {
+  border-radius: 8px;
+  border: 2px solid #8e8a8a;
+  width: 347px;
+  height: 59px;
+  color: #8e8a8a;
+  font-family: Airbnb;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 16px 0px 16px 28px;
+  line-height: 27px; /* 158.824% */
+  letter-spacing: 0.17px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card-section-header-container {
+  gap: 23px;
+  margin-top: 80px;
+  width: -webkit-fill-available;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.card-section-header {
+  color: #000;
+  font-family: Airbnb;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 90% */
+  letter-spacing: 0.3px;
+}
+
+.country-matrix {
+  border-radius: 4.5px;
+  background: #008180;
+  padding: 2px 10px;
+}
+
+.three-input-fields {
+  width: -webkit-fill-available;
+  flex-wrap: nowrap;
+  gap: 22px;
+  justify-content: space-between;
+}
+
+.preference-input {
+  width: -webkit-fill-available;
+}
+
+.preference-instruction {
+  color: #000;
+  text-align: center;
+  font-family: Airbnb;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.15px;
+  margin: 0px;
+}
+
+.delegate-preference-section {
+  width: -webkit-fill-available;
+  justify-content: space-between;
+  margin-top: 55px;
+  padding: 40px 55px;
+  gap: 35px;
+  border-radius: 10px;
+  border: 3px solid #000;
+}
+
+.delegate-experience-container {
+  gap: 25px;
+  width: -webkit-fill-available;
+  margin-top: 45px;
+}
+
+.delegate-experience-number {
+  width: -webkit-fill-available;
+  border-radius: 10px;
+  border: 3px solid #000;
+}
+
+.delegate-experience-content {
+  border-radius: 10px;
+  border: 3px solid #000;
+  width: -webkit-fill-available;
+  height: 313px;
+  flex-shrink: 0;
+}
+
+.internal-registration-form-button {
+  color: #fff;
+  text-align: center;
+  font-family: Airbnb;
+  font-size: 25.504px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.43px; /* 135% */
+  letter-spacing: 0.255px;
+  border-radius: 10.201px;
+  border: 2.55px solid #1f75bc;
+  background: #1f75bc;
+  box-shadow: 0px 0px 102.014px 0px #1f75bc;
+  padding: 13px;
+  margin-top: 50px;
+}

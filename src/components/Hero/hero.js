@@ -10,9 +10,9 @@ const HeroComponent = () => {
         alt="hero"
       />
       <div className="hero-button-container flex-container-row">
-        <button className="hero-button">REQUEST INVITE</button>
+        <button className="hero-button">DELEGATION REGISTRATION</button>
         <button className="hero-button register-now-button">
-          REGISTER NOW
+          INDIVIDUAL REGISTRATION
         </button>
       </div>
       <img

@@ -1,14 +1,15 @@
-//import logo from './logo.svg';
-import { NavbarMain } from "./components/Navbar/navbar";
-import "./App.css";
-import HeroComponent from "./components/Hero/hero";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Internal from "./pages/Internal Registration/Internal";
 
 function App() {
   return (
-    <div className="font-3xl text-center font-body">
-      <NavbarMain />
-      <HeroComponent />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/internal" element={<Internal />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero.css";
 
-const HeroComponent = () => {
+const HeroComponent = (props) => {
   return (
     <div className="hero-container flex-container-column">
       <img
@@ -11,7 +11,10 @@ const HeroComponent = () => {
       />
       <div className="hero-button-container flex-container-row">
         <button className="hero-button">DELEGATION REGISTRATION</button>
-        <button className="hero-button register-now-button">
+        <button
+          onClick={props.toggleShowPopup}
+          className="hero-button register-now-button"
+        >
           INDIVIDUAL REGISTRATION
         </button>
       </div>
